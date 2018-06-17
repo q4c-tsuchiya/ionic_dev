@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
 
 // import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
-import { HomePage } from '../home/home';
-
+import { ConfirmationPage } from '../confirmation/confirmation';
+import { KeybordPage } from '../keybord/keybord';
+import { SelectWordPage } from '../selectword/selectword';
+import { TimePage } from '../time/time';
+import { YoutubeListPage } from '../youtubelist/youtubelist';
 @Component({
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
 
 //  tab1Root = AboutPage;
-  tab1Root = ConfirmationPage;
   tab1Root = ConfirmationPage;
   tab2Root = KeybordPage;
   tab3Root = SelectWordPage;
